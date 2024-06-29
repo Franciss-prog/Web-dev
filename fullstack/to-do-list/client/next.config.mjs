@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    distDir: 'build', // Optional: specify if you want a custom build directory
+    reactStrictMode: true,
   };
   
   export default nextConfig;
-  
