@@ -3,7 +3,6 @@ import mongoose from "mongoose";
 
 const connectDB = async() => {
     try {
-
         // connections validation
         if (mongoose.connections[0].readyState) return;
         // connect to database
