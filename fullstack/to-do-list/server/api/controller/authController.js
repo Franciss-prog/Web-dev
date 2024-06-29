@@ -3,7 +3,7 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
 
-const JWT_TOKEN = process.env.JWT_SECRET;
+const JWT_TOKEN = process.env.JWT_SECRET || "qC06932YWk0T";
 
 
 export const loginController = async (req, res) => {

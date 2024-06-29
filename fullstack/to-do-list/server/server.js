@@ -1,9 +1,9 @@
 import express  from 'express';
 import { config } from 'dotenv';
 import cors from 'cors'
-import connectDB from './db/DB.js';
-import authRoutes from './routes/authRoutes.js'
-import todoRoutes from './routes/todoRoutes.js'
+import connectDB from './api/db/DB.js';
+import authRoutes from './api/routes/authRoutes.js'
+import todoRoutes from './api/routes/todoRoutes.js'
 
 // config
 const PORT = 8080 || process.env.PORT;
