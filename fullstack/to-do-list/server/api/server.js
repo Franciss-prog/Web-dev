@@ -4,10 +4,12 @@ import cors from 'cors'
 import connectDB from './db/DB.js';
 import authRoutes from './routes/authRoutes.js'
 import todoRoutes from './routes/todoRoutes.js'
+config();
+
+
 // config
 const PORT = 8080 || process.env.PORT;
 const app = express();
-config();
 
 // database connection
 connectDB();
